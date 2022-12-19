@@ -1,0 +1,23 @@
+.code pre, .preformatted pre {
+	background-color: #eee;
+}
+
+th {
+	text-align: left;
+	background-color: #ddd;
+	border: 1px solid black;
+	padding: 0 0.5em;
+}
+
+td {
+	border-left: 1px solid black;
+	border-bottom: 1px solid #ddd;
+	padding: 0 0.5em;
+}
+
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+
+

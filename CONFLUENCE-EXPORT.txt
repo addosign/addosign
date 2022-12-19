@@ -1,0 +1,15 @@
+* Open Confluence
+* Select "Vis i hierarki" in the 3-dots menu
+* Select "Eksporter":
+	* HTML
+	* Click "Næste"
+	* Select "Tilpasset eksport"
+	* De-select "Inkluder kommentarer" and then "Fravælg alle"
+	* Scroll down and select "Web Service API documentation"
+	* De-select "Deprecated methods" and "Hidden Gems"
+	* Select "Eksporter"
+	* Download the file
+* Delete the ADDO folder in the vismaaddo repository
+* Unzip the export file and copy the ADDO folder to the vismaaddo repository
+* Edit "API-Documentation---Addo-Web-Service_xxx.html":
+	* Add:   <link rel="stylesheet" href="/vismaaddo/addo.css" type="text/css" />
