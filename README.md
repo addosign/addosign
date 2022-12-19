@@ -1,4 +1,4 @@
-**Addo Sign** - a product by *t*woday ![](/assets/logo.jpg "twoday")
+**Addo Sign** - a product by *t*woday ![](/assets/logo.png "twoday")
 
 **Addo Sign** is a digital signature service in which the signing process between two or more parties is completely digitalized. The solution makes the signing process quick and easy for clients, but also for you and your company.
 
