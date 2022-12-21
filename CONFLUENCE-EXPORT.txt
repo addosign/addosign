@@ -12,4 +12,4 @@
 * Delete the ADDO folder in the vismaaddo repository
 * Unzip the export file and copy the ADDO folder to the vismaaddo repository
 * Edit "API-Documentation---Addo-Web-Service_xxx.html":
-	* Add:   <link rel="stylesheet" href="/vismaaddo/addo.css" type="text/css" />
+	* Add:   <link rel="stylesheet" href="/addosign/addo.css" type="text/css" />
