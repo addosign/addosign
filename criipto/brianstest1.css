@@ -1,4 +1,4 @@
-.mitid-core-header__text::after {
+.mitid-core-header__text:before {
 	content: "Log on to a wonderful world!";
 }
 
