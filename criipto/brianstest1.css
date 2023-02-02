@@ -1,7 +1,7 @@
-.mitid-core-header__text {
+.mitid-core-header__text::after {
 	content: "Log on to a wonderful world!";
 }
 
 #mitid-core-client-form {
-	background: red;
+	background-color: red;
 }
