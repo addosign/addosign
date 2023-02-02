@@ -2,6 +2,10 @@
 	content: "Log on to a wonderful world!";
 }
 
+.mitid-core-header__text {
+	background-color: blue;
+}
+
 #mitid-core-client-form {
 	background-color: red;
 }
