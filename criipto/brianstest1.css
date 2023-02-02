@@ -3,8 +3,13 @@
 }
 
 .mitid-core-header__text {
-	background-color: blue;
+	visibility: hidden;
 }
+
+.mitid-core-header__text:after {
+	content: "<h1>Log p&aring; hos Addo</h1>";
+}
+
 
 #mitid-core-client-form {
 	background-color: red;
