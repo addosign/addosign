@@ -15,6 +15,6 @@ Samples on how to integrate with the **Addo Sign** API:
 * [Addo Samples in .NET Core / C#](https://github.com/addosign/AddoSamples)
 
 You should really have a look at the [Addo Sign API documentation](https://addosign.github.io/addosign/ADDO/index.html) to see what the API has to offer.
-The documentation can also be downloaded as a [PDF](ADDO-070923-1325-54.pdf) for offline reading.
+The documentation can also be downloaded as a [PDF](ADDO-070923-1344-56.pdf) for offline reading.
 
 
