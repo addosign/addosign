@@ -185,6 +185,11 @@ a img {
     display: none;
 }
 
+#breadcrumbs li button.elipsis-button{
+    border: none;
+    background: transparent;
+}
+
 /* Metadata stuff just below page title*/
 .page-metadata ul {
     overflow: hidden;
@@ -1522,6 +1527,11 @@ ul.tab-navigation .current a:hover {
     padding-left: 21px;
 }
 
+.content-navigation .ajs-menu-bar .ajs-button .aui-form-glyph,
+.content-navigation .ajs-menu-bar .ajs-menu-item .ajs-menu-title .aui-form-glyph {
+    padding-left: 0;
+}
+
 /* These styles reset styles intended to allow for padding if using background-image icons since we are using font icons
    If we move to only icon font then we can remove these styles, but they override styles needed for developers
    to use background images
@@ -1529,7 +1539,7 @@ ul.tab-navigation .current a:hover {
 .content-navigation .ajs-menu-bar .ajs-button a > span > span.aui-icon,
 .content-navigation .ajs-menu-bar .ajs-menu-item a > span > span.aui-icon {
     margin-left: -21px;
-    padding-left: 0px;
+    padding-left: 0;
 }
 /* end allows usage of icon-font */
 
@@ -1593,6 +1603,7 @@ ul.tab-navigation .current a:hover {
 }
 
 /*End PDL menu.css*/
+
 
 @import "colors.less";
 
@@ -1715,6 +1726,11 @@ a img {
 
 #breadcrumbs li.hidden-crumb {
     display: none;
+}
+
+#breadcrumbs li button.elipsis-button{
+    border: none;
+    background: transparent;
 }
 
 /* Metadata stuff just below page title*/
