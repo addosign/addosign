@@ -577,15 +577,12 @@ body.spaces .aui-tabs > .tabs-menu .menu-item a:visited {
     color: var(--confluence-color-scheme-headerButtonTextColor, var(--ds-text-inverse));
 }
 
-
-
 .aui-header .aui-header-logo img {
     content: var(--confluence-custom-logo-content);
 }
 
+
 $style
-
-
 /* @group labels */
 
 .aui-label {
