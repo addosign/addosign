@@ -2437,7 +2437,7 @@
                           <td class="confluenceTd">TimeSpan?</td>
                           <td class="confluenceTd">Describes life
                           time of the signing, must be longer than
-                          a day. Please see below in section 4
+                          a day. Please see below in section 5
                           (Notes).</td>
                         </tr>
                         <tr>
@@ -18670,38 +18670,20 @@
                   <p>The format of the Duration in the
                   TemplateOverrides to the /InitiateSigning call
                   must have this format:</p>
-                  <pre>[-]P[{days}D][T[{hours}H][{min}M][{sec}S]]</pre>
+                  <pre>P{days}D</pre>
                   <p><span style=
                   "color:var(--ds-text-accent-gray,#44546f);">...
                   where:</span></p>
                   <ul>
                     <li><span style=
-                    "color:var(--ds-text-accent-gray,#44546f);">-
-                    Indicates negative timespan, omitted for
-                    positive values</span></li>
-                    <li><span style=
                     "color:var(--ds-text-accent-gray,#44546f);">P
                     must be the first character (unless negative
                     time value)</span></li>
-                    <li><span style=
-                    "color:var(--ds-text-accent-gray,#44546f);">T
-                    must precede the time portion of the
-                    timespan.</span></li>
-                    <li><span style=
-                    "color:var(--ds-text-accent-gray,#44546f);">[]
-                    = optional part that may be omitted if
-                    0.</span></li>
                   </ul>
                   <p>Example. If you like to specify a duration of
                   two days then the string would be:</p>
                   <pre>P2D</pre>
-                  <p>.. if you would like to specify 3 days, 7
-                  hours and 2 seconds, then:</p>
-                  <pre>P3DT7H2S</pre>
-                  <p>Please note that unless otherwise noted
-                  durations in the Addo API is always expressed in
-                  whole positive days (PxD, where x is the number
-                  of days).</p>
+		  <p>We do not support the full ISO 8601 Duration specification.</p>
                   <h2 id=
                   "WebServiceAPIdocumentation-5.3Creatinginvitationlinkbyhand">
                   5.3 Creating invitation link by hand</h2>
