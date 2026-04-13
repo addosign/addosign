@@ -8,7 +8,7 @@
 
 ---
 
-These pages are meant for developers. If you want to learn more about **Addo Sign** please visit our website on [https://addosign.dk/](https://addosign.dk/).
+These pages are meant for developers. If you want to learn more about **Addo Sign** please visit our website on [https://addosign.com/](https://addosign.com/).
 
 Samples on how to integrate with the **Addo Sign** API:
 
