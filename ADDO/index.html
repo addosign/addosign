@@ -2756,7 +2756,7 @@
                           <td class="confluenceTd">Id</td>
                           <td class="confluenceTd">Guid</td>
                           <td class="confluenceTd">
-                            <p>Obsolete. Use ExternalId instead</p>
+                            <p>Obsolete. Use AdditionalData instead.</p>
                             <p>Unique Guid to identify recipient
                             (optional and used to match with
                             SequenceItem).&nbsp;</p>
@@ -2769,7 +2769,7 @@
                           identify recipient. This value will be
                           provided with GetSigning method. Needed
                           for RecipientSignaturePlacement
-                          mapping.</td>
+			  mapping. Deprecated. Please use AdditionalData instead. If you're using the RecipientSignaturePlacement mapping then please switch to <a href="https://addosign.net/api/">the successor API</a>.</td>
                         </tr>
                         <tr>
                           <td class="confluenceTd">
@@ -3372,7 +3372,6 @@
           "CVR": null,
           "Cpr": "0101987654",
           "Email": "test_recipient1@twoday.com",
-          "ExternalId": "4c24818a-eae2-4eb0-aa2e-f77ab355f77d",
           "SequenceNumber": 1,
           "Name": "TestName1",
           "PID": null,
@@ -4159,7 +4158,7 @@
                             "confluenceTd">Guid</td>
                             <td style="width: 573.0px;" class=
                             "confluenceTd">
-                              <p>Obsolete. Use ExternalId
+                              <p>Obsolete. Use AdditionalData
                               instead.</p>
                               <p>Recipient Id which was optionally
                               specified while creating signing.</p>
@@ -4173,7 +4172,7 @@
                             <td style="width: 573.0px;" class=
                             "confluenceTd">Recipient Id which was
                             optionally specified while creating
-                            signing.</td>
+                            signing. Deprecated. Use AdditionalData instead.</td>
                           </tr>
                           <tr>
                             <td style="width: 133.0px;" class=
@@ -4714,7 +4713,7 @@
                             <td class="confluenceTd">Guid</td>
                             <td class="confluenceTd">Recipient Id
                             which was specified while creating
-                            signing.</td>
+                            signing. Deprecated. Use AdditionalData instead.</td>
                           </tr>
                           <tr>
                             <td class="confluenceTd">
@@ -5768,10 +5767,10 @@
                           </tr>
                           <tr>
                             <td class="confluenceTd">
-                            ExternalId&nbsp;</td>
+                            ExternalId</td>
                             <td class="confluenceTd">string</td>
                             <td class="confluenceTd">max 255
-                            chars</td>
+                            chars. Deprecated. Use AdditionalData instead.</td>
                           </tr>
                           <tr>
                             <td class="confluenceTd">
@@ -6035,7 +6034,7 @@
                             <td colspan="1" class="confluenceTd">
                             string</td>
                             <td colspan="1" class="confluenceTd">
-                            External account identifier</td>
+                            External account identifier. Deprecated. Use AdditionalData instead.</td>
                           </tr>
                           <tr>
                             <td class="confluenceTd">Contacts</td>
@@ -6159,7 +6158,6 @@
     ],
     "CreditsLeft": -19.40,
     "Email": "test@twoday.com",
-    "ExternalId": null,
     "IsEnterprise": true,
     "Name": "Test Name",
     "Phone": "+4500000000"
@@ -8640,7 +8638,7 @@
                                 <strong>ExternalId- [string]
                                 -</strong> external identifier that
                                 can be added to new account (max
-                                length 255 characters)<br class=
+                                length 255 characters). Deprecated. Use AdditionalData instead.<br class=
                                 "atl-forced-newline">
                                 <strong>Password - [string]
                                 -</strong> account password, min
@@ -10137,7 +10135,7 @@
                           string</td>
                           <td colspan="1" class="confluenceTd">
                           Account external identifier, which has
-                          been passed on account creation</td>
+                          been passed on account creation. Deprecated. Use AdditionalData instead.</td>
                         </tr>
                         <tr>
                           <td colspan="1" class="confluenceTd">
@@ -10222,7 +10220,6 @@
             "AccountId": 1710,
             "CompanyName": "",
             "CreatedOn": "/Date(1551736800000+0200)/",
-            "ExternalId": "Test external Id 123456789,
             "UserExternalProviderId": null,
             "UserExternalProviderType": null,
                         "IsActive": true
@@ -10231,7 +10228,6 @@
             "AccountId": 1724,
             "CompanyName": "Company name of test",
             "CreatedOn": "/Date(1557003600000+0300)/",
-            "ExternalId": null,
             "UserExternalProviderId": null,
             "UserExternalProviderType": null,
                         "IsActive": false
@@ -12101,7 +12097,7 @@
                             <td class="confluenceTd">string</td>
                             <td class="confluenceTd">String value
                             to identify recipient. This value will
-                            be provided with GetSigning method</td>
+                            be provided with GetSigning method. Deprecated. Use AdditionalData instead.</td>
                           </tr>
                           <tr>
                             <td style="text-align: left;" class=
