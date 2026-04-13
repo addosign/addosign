@@ -10,9 +10,10 @@
 
 These pages are meant for developers. If you want to learn more about **Addo Sign** please visit our website on [https://addosign.com/](https://addosign.com/).
 
-Samples on how to integrate with the **Addo Sign** API:
+As a developer you have two choices for integrating with Addo Sign:
 
-* [Addo Samples in .NET Core / C#](https://github.com/addosign/AddoSamples)
+1. If you're starting out with a new integration you should really use our successor API - [Addo API](https://addosign.net/api/). There's even a introductory tutorial - [Addo API Tutorial](https://addosign.net/api/docs/).
 
-You should really have a look at the [Addo Sign API documentation](https://addosign.github.io/addosign/ADDO/index.html) to see what the API has to offer.
+2. If you're maintaining an existing integration it was probably built using our old [WebServices](https://addosign.github.io/addosign/ADDO/index.html). We even have a few samples on how to use the old WebServices - [Addo Samples in .NET Core / C#](https://github.com/addosign/AddoSamples).
+
 
